@@ -33,7 +33,34 @@
 </script>
 </head>
   <body>
- <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../">Home</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#links">Links</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#activities">Activities</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+			<li><a href="http://nl.linkedin.com/in/cgueret/"><img class="img-responsive" src="img/linkedin.png"/></a></li>
+			<li><a href="https://twitter.com/cgueret/"><img class="img-responsive" src="img/twitter.png"/></a></li>
+			<li><a href="https://plus.google.com/u/0/+ChristopheGu%C3%A9ret/posts"><img class="img-responsive" src="img/google-plus.png"/></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,15 +72,18 @@
           <a class="navbar-brand" href="#">Christophe Gu&eacute;ret</a>
         </div>
 		<div class="navbar-collapse collapse">
+			<ul class="navbar navbar-nav">
+			<li class="active"><a href="#">Link</a></li>
+			</ul>
           <form class="navbar-form navbar-right" role="form">
-			<a href="http://nl.linkedin.com/in/cgueret/"><img height="45px" href="#" src="img/linkedin.png"/></a>
-			<a href="https://twitter.com/cgueret"><img height="45px" href="#" src="img/twitter.png"/></a>
-			<a href="https://plus.google.com/u/0/+ChristopheGu%C3%A9ret/posts"><img height="45px" href="#" src="img/google-plus.png"/></a>
+			<a href="http://nl.linkedin.com/in/cgueret/"><img height="35px" href="#" src="img/linkedin.png"/></a>
+			<a href="https://twitter.com/cgueret"><img height="35px" href="#" src="img/twitter.png"/></a>
+			<a href="https://plus.google.com/u/0/+ChristopheGu%C3%A9ret/posts"><img height="35px" href="#" src="img/google-plus.png"/></a>
           </form>
-        </div><!--/.navbar-collapse -->
+        </div>
       </div>
     </div>
-
+-->
     {{ content }}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
